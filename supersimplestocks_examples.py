@@ -153,7 +153,7 @@ if __name__ == '__main__':
     # mentioned above:
     vwsp_pop2 = tradeport_empty.volweightsp("pop", 15.00)
     # In the case of ASI:
-    gbce_index2 = tradeport_empty.asi_calc(15.00)
+    gbce_asi2 = tradeport_empty.asi_calc(15.00)
 
 
 
