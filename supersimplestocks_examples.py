@@ -22,11 +22,15 @@ NOTES: This is really just meant to show some of
        the classes and methods.
 
        This version is all hardcoded with no user 
-       input or GUI. I manually made some trades with
-       a time value set to > 15 mins to help
-       simulate computing the volume weighted stock
-       price using using only trades from a certain 
-       time window. 
+       input or GUI until the very end where it 
+       shows what happens if invalid inputs are 
+       entered to a class or method. 
+       
+       I manually make some trades with
+       a time value set to > 15 mins from the current
+       time to help simulate computing the volume 
+       weighted stock price using using only trades 
+       from a certain time window. 
 
 """
 #Import some modules
