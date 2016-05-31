@@ -435,7 +435,7 @@ class Portfolio(object):
 
     def asi_calc(self,trange):
         """
-        NAME: gbce_calc()
+        NAME: asi_calc()
 
         PURPOSE: Computes the All Share Index (ASI) using the 
                  geometric mean of the stock prices
@@ -452,7 +452,7 @@ class Portfolio(object):
         """   
         #Tell the user what is happening
         print "\n>>> Computing All Share Index (ASI) using %s's" \
-               "Portfolio <<<" % (self.tradername)
+               " Portfolio <<<" % (self.tradername)
 
         #First check if the tradelist is empty
         if len(self.tradelist) == 0:
