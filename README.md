@@ -5,9 +5,8 @@ SuperSimpleStocks is a code that models a very simple trading market.
 1) supersimplestocks.py contains three classes: Stock, Trade and Portfolio. Using these allows you to set up a collection of stocks with certain attributes, make trades on those stocks, and include those trades within your portfolio.
 
 Stocks: This class is set up with the stock name, type, last dividend, par value, Fixed Dividend.
-
             e.g. tea = Stock("tea", "common", 0.0, 100) 
-            ... in this case fixed dividend = None
+... in this case fixed dividend = None
 
         You can then compute the dividend yield by,
 
