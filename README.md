@@ -6,7 +6,8 @@ SuperSimpleStocks is a code that models a very simple trading market.
 
 Stocks: This class is set up with the stock name, type, last dividend, par value, Fixed Dividend.
 
-            e.g. tea = Stock("tea", "common", 0.0, 100) ... in this case fixed dividend = None
+            e.g. tea = Stock("tea", "common", 0.0, 100) 
+            ... in this case fixed dividend = None
 
         You can then compute the dividend yield by,
 
@@ -20,7 +21,7 @@ Stocks: This class is set up with the stock name, type, last dividend, par value
 
             e.g. teatrade = tea.trade_stock(44.0, 2.0, 'b').
  
-         This then makes an object called teatrade using the Trade class
+        This then makes an object called teatrade using the Trade class
 
 Trades: This class holds a trade. It takes the stock name, price, quantity, buy or sell indicator, and the cuurent time as a timestamp.
         e.g. trade = Trade("tea", 44.0, 2.0, 'b', time()) 
