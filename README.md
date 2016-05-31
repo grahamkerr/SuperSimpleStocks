@@ -52,7 +52,7 @@ Computig the All Share index over a time range,
             
 You can open an empty portfolio by inputting an empty list,
 
-                tradeportfolio = Portfolio("GrahamKerr,[])
+                tradeportfolio = Portfolio("GrahamKerr",[])
                 
 In both cases (an initially empty portfolio, or one that is created with some pre-existing trades), trades can be added by,
 
