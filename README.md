@@ -45,9 +45,9 @@ Computing the volume weighted share price for a particular stock over a set time
                 vwsp_tea = tradeportfolio.volweightsp('tea', 15) 
 ... for 15 in units of minutes. 
 
-Computig the GBCE share index over a time range,
+Computig the All Share index over a time range,
 
-                gbce = tradeportfolio.gbce_comp(15) 
+                allshareindex = tradeportfolio.asi_comp(15) 
 ... again, for 15 in units of minutes
             
 You can open an empty portfolio by inputting an empty list,
